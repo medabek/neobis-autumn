@@ -43,16 +43,13 @@ class Complex(object):
             result = "%.2f-%.2fi" % (self.real, abs(self.imaginary))
         return result
 
-(r, i) = map(float, input().split())
-C = Complex(r, i)
-
-(r, i) = map(float, input().split())
-
-D = Complex(r, i)
-
-print (C + D)
-print (C - D)
-print (C * D)
-print (C / D)
-print ("{:.2f}".format(C.mod()))
-print ("{:.2f}".format(D.mod()))
+#(rnum, inum) = map(float, input().split())
+#C = Complex(rnum, inum)
+#(rnum, inum) = map(float, input().split())
+#D = Complex(rnum, inum)
+#print (C + D)
+#print (C - D)
+#print (C * D)
+#print (C / D)
+#print ("{:.2f}".format(C.mod()))
+#print ("{:.2f}".format(D.mod()))
